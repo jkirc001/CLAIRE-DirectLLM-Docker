@@ -1,0 +1,9 @@
+# Project-wide settings for CLAIRE-DirectLLM
+
+mode: "development"  # development | evaluation
+
+llm:
+  provider: "openai"
+  model: "gpt-4o-mini"  # default for development (overridden to gpt-4o in evaluation mode)
+  temperature: 0.2
+  max_tokens: 2048

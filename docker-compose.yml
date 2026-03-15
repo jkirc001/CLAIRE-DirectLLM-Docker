@@ -1,0 +1,5 @@
+services:
+  app:
+    image: ghcr.io/jkirc001/claire-directllm-app:latest
+    container_name: claire-directllm-app
+    env_file: .env

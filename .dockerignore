@@ -1,0 +1,17 @@
+.git
+.gitignore
+.env
+.env.example
+.DS_Store
+__pycache__
+*.pyc
+docker-compose.yml
+docker-compose.override.yml
+LICENSE
+README.md
+notes.md
+docker-plan.md
+VERSION
+ask
+compare
+.github
