@@ -9,9 +9,10 @@
       "Bash(docker run:*)",
       "Bash(./ask \"What is CWE-79?\" 2>&1)",
       "Bash(git add:*)",
-      "Bash(git checkout:*)",
-      "Bash(git rebase:*)",
-      "Bash(GIT_EDITOR=true git rebase --continue 2>&1)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)"
     ]
   }
 }

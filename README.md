@@ -2,6 +2,8 @@
 
 Containerized distribution of [CLAIRE-DirectLLM](https://github.com/jkirc001/CLAIRE-DirectLLM) -- the direct LLM baseline for cybersecurity question answering.
 
+> **WARNING: Do not use this system for real cybersecurity analysis. Answers are likely to be incorrect or hallucinated.** This is the direct LLM baseline for the CLAIRE project, provided solely for comparative evaluation against [CLAIRE-KG-Docker](https://github.com/jkirc001/CLAIRE-KG-Docker). For reliable results, use CLAIRE-KG-Docker.
+
 Sends questions directly to OpenAI with no knowledge graph, no RAG, and no database. Exists to compare against CLAIRE-KG and CLAIRE-RAG.
 
 ## Prerequisites
